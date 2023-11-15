@@ -15,6 +15,7 @@ Step 4: compute the BMI by this formula [ H/W^2]
 Step 5: print an output  prompt that explain the answer as BMI.
 Step 6: print BMI.
 Step 7: stop 
+
 2,
 Analysis:
 Inputs: volume of the fuel tank in gallons and the distance in miles per gallons.
