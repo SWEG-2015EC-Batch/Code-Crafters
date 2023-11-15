@@ -71,6 +71,7 @@ Step6- print grosssalary, net salar and  bonus payment
 Step7-stop
 
 6, time taken to transmit file
+
 problem analysis 
 Input -Enter file size and transmission speed
 process -change transmission speed in char per second to in byte per second , time in second =file size/transmission  speed byte per second and convert time in second to times in days
