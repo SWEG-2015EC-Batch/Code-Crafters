@@ -1,4 +1,4 @@
-
+//Case identifier and convertor
 
 #include<iostream>
 #include<cmath>    
