@@ -1,4 +1,5 @@
-//Q4
+//Q4 Power of 2 numbers
+
 #include<iostream>       
 #include<cmath>  
 {
