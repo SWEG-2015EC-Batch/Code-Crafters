@@ -1,23 +1,26 @@
 
 
-include<iostream>
+#include<iostream>
+#include<cmath>    
+#include<string>
 
 using namespace std;
 int main()
-
 {
+    char letter;
+    cout<<"Enter any letter : ";
+    cin>>letter;
+    if (isupper(letter)){
+        letter = tolower(letter);
+        cout<<"The Lowercase equivalent is "<<letter;
+    }
+    else if(islower(letter)){
+        letter = toupper(letter);
+        cout<<"The Uppercase equivalent is "<<letter;}
 
-   double capacity_in_gallon, mile_per_gallon,number_of_miles ;         //BMI = Body Mass Index
-
-  cout << "Enter the Capacity in gallon of an automobile fuel tank :";
-    cin >> capacity_in_gallon;
-
-  cout << "Enter the Miles per gallon the automobile can be driven :";
-    cin >> mile_per_gallon;
-
-    number_of_miles = capacity_in_gallon * mile_per_gallon ;
-
-    cout << " Number of miles the automobile can be driven is :"<<number_of_miles<<" miles";
+    else {
+        cout<<" Invalid input ";
+    }
 
     return 0;
 
