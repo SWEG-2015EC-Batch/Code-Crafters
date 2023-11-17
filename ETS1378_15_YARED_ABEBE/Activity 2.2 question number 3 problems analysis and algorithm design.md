@@ -20,4 +20,4 @@ Step4-print converted letter
 
 Step 5-stop
 
-![photo_2023-11-17_18-13-54](https://github.com/SWEG-2015EC-Batch/Code-Crafters/assets/149156568/f4777fe6-2c71-444a-8f65-615c3219b464)
+<img width="280" alt="image" src="https://github.com/SWEG-2015EC-Batch/Code-Crafters/assets/149156568/1e47a02b-0f61-4578-a10d-3d038c171420">
