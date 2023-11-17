@@ -97,3 +97,11 @@ Step2: read the user input means read the file size
    Step3:  calculate the number of days that require to transfer file
 Step4: output the result
 Step5: stop
+
+
+![photo_5_2023-11-17_22-58-31](https://github.com/SWEG-2015EC-Batch/Code-Crafters/assets/149231087/bb8797d5-63ce-4cff-b738-2d18f140c71c)
+![photo_4_2023-11-17_22-58-31](https://github.com/SWEG-2015EC-Batch/Code-Crafters/assets/149231087/a8dbf063-3dd8-4174-bfd4-321664efc960)
+![photo_3_2023-11-17_22-58-31](https://github.com/SWEG-2015EC-Batch/Code-Crafters/assets/149231087/4bc1d9eb-1173-4e06-ba20-3b6926ef4ab8)
+![photo_2_2023-11-17_22-58-31](https://github.com/SWEG-2015EC-Batch/Code-Crafters/assets/149231087/5e88bcb5-9e6e-43de-8928-06ca3d727b22)
+![photo_1_2023-11-17_22-58-31](https://github.com/SWEG-2015EC-Batch/Code-Crafters/assets/149231087/431c22c8-05bc-48ec-b180-490eedfe9153)
+![image](https://github.com/SWEG-2015EC-Batch/Code-Crafters/assets/149231087/8f519ed5-2c6e-40de-bdca-d89284adde30)
