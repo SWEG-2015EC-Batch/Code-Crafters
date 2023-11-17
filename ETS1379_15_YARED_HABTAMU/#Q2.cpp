@@ -1,4 +1,5 @@
-include<iostream>
+// calculate Number of miles
+#include<iostream>
 
 using namespace std;
 int main()
@@ -11,11 +12,10 @@ double capacity_in_gallon, mile_per_gallon, number_of_miles ;
  
   cout << "Enter the Miles per gallon the automobile can be driven :";
   cin >> mile_per_gallon;
+ number_of_miles = capacity_in_gallon * mile_per_gallon ;
+ 
+ cout << " Number of miles the automobile can be driven is :"<<number_of_miles<<" miles";
 
-    number_of_miles = capacity_in_gallon * mile_per_gallon ;
-
-    cout << " Number of miles the automobile can be driven is :"<<number_of_miles<<" miles";
-
-    return 0;
+ return 0;
 
 }
