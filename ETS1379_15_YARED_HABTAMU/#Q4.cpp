@@ -8,7 +8,7 @@
     cout<<"Enter y value : ";
     cin>>y;
   power_value = pow(x,y);
-    cout<< power_value;
+    cout<< "The power of x to the y is "<<power_value;
 
     return 0;
 }
