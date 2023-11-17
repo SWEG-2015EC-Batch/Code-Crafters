@@ -20,4 +20,5 @@ int main()
     cout << " Number of miles the automobile can be driven is :"<<number_of_miles<<" miles";
 
     return 0;
+
 }
