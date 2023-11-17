@@ -15,6 +15,8 @@ Step 4: compute the BMI by this formula [ H/W^2]
 Step 5: print an output  prompt that explain the answer as BMI.
 Step 6: print BMI.
 Step 7: stop 
+
+
 2,
 Analysis:
 Inputs: volume of the fuel tank in gallons and the distance in miles per gallons.
@@ -33,6 +35,7 @@ Step 5: print an output prompt that explain the answer as MILES.
 Step 6: print the distance in miles
 Step 7: stop
 
+
 3, Analysis:
  Input:  a single character which is letter
 Output: lowercase or uppercase version of the input.
@@ -42,6 +45,7 @@ Operation:
 If the character is uppercase, change it to lower
 If the input is invalid, inform .
 Displaying the output
+  
    Pseudocode :
 Step1: start
 Step2: read the character
@@ -51,6 +55,7 @@ Step3: check if the letter is lowercase, change it to uppercase
 Step4: check if the letter is uppercase, change it to lowercase
 Step5: if the input is invalid, inform them to correct
 Step6: stop
+
 
 4. Analysis
  input -read the two numbers from the user
@@ -63,6 +68,7 @@ Step2:  read the number given from the user
  Step3: use the pow() function to find the first number to the second
 Step4: print out the result
 Step5: stop
+
 
 5, Analysis
   INPUT  - WEAKLY WORKING HOURS
