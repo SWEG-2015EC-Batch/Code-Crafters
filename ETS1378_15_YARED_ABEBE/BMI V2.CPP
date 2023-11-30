@@ -3,7 +3,7 @@ using namespace std;
 int main() {
 
 	     char gender;
-		cout << "\ngender (m or f)= ";
+		cout << gender (m or f)= ";
 		cin >> gender;
 		double height, weight, BMI;
 		cout << "enter weight= ";
