@@ -40,7 +40,7 @@ int main()
     case '%':
       if (num2 != 0)
       {
-        cout <<"The modulus of 2 numbers is :"<< num1 % num2;
+        cout <<"The modulus of 2 numbers is :"<< int(num1) % int(num2);
       }
       else cout << "Any number can't devisible by 0 so ypu can't have a modulus value \n";
       break;
