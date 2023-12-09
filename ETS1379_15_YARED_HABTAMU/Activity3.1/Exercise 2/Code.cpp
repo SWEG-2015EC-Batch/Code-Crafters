@@ -7,7 +7,6 @@ int main()
   char operators;
   operators = '+', '-', '*', '/', '%';
 
-
   do
   {
     cout << "Enter the first number :";
@@ -16,8 +15,6 @@ int main()
     cin >> num2;
     cout << "Enter an operator :";
     cin >> operators;
-
-
 
     switch (operators)
     {
@@ -35,14 +32,14 @@ int main()
       {
         cout << "Their divison is :" << num1 / num2;
       }
-      else cout << "Any number can't devisible by 0 \n";
+      else cout << "Any number can't divisible by 0 \n";
       break;
     case '%':
       if (num2 != 0)
       {
         cout <<"The modulus of 2 numbers is :"<< int(num1) % int(num2);
       }
-      else cout << "Any number can't devisible by 0 so ypu can't have a modulus value \n";
+      else cout << "Any number can't divisible by 0 so ypu can't have a modulus value \n";
       break;
     default:
       cout << "You entered invalid Operator : ";
