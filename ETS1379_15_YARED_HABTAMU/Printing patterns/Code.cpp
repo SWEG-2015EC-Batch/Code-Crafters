@@ -11,7 +11,7 @@ int main()
     int column = 0;
     for (int i = 10; i <= 49; i++)
     {
-        cout << i << " ";                       // 1 upto 49
+        cout << i << " ";             // 1 upto 49
         column++;
         if (column == 10) {
            cout <<endl;
@@ -21,7 +21,7 @@ int main()
 
     cout << endl;
 
-    for (int i = 1; i <= num; i++)                               //i is for raws and j&k are for columuns
+    for (int i = 1; i <= num; i++)      //i is for raws and j&k are for columuns
     {
         for (int j = 1; j <= num; j++) {      //full rectangle
             cout << " * ";
@@ -35,7 +35,7 @@ int main()
         cout << "* ";
     }
     cout << endl;
-    for (i = 1; i <= num;i++)                        //Hollow rectangle
+    for (i = 1; i <= num;i++)            //Hollow rectangle
     {
         for (j = 1; j <= num;j++) {
 
@@ -69,7 +69,7 @@ int main()
 
     for (i = num;i >= 1;--i)
     {
-        for (j = i;j >= 1;--j)             //inverted right triangle
+        for (j = i;j >= 1;--j)        //inverted right triangle
         {
             cout << '*';
         }
@@ -80,7 +80,7 @@ int main()
 
     cout << endl;
 
-    for (int i = 1; i <= num; i++)                   //Full pyramid
+    for (int i = 1; i <= num; i++)      //Full pyramid
     {
         for (int j = i;j < num;j++)
         {
@@ -97,7 +97,7 @@ int main()
 
     for (int i = 0; i < num; i++)
     {
-        for (int j = i;j < num;j++)                                  //  Hollow pyramid triangle
+        for (int j = i;j < num;j++)            //  Hollow pyramid triangle
         {
             cout << "   ";
         }
@@ -123,7 +123,7 @@ int main()
     for (int i = num; i >= 1; i--)      //i is for raws and j&k are for columuns
     {
         for (int j = num;j > i;j--)
-        {                                             //Inverted full pyramid
+        {                             //Inverted full pyramid
             cout << " ";
         }
         for (int k = 1;k < (i * 2);k++) {
@@ -162,7 +162,7 @@ int main()
 
         for (n = 'A';n <= 'E';n++)
         {
-            for (m = 'A';m <= n;m++)                //  A  AB  ABC...
+            for (m = 'A';m <= n;m++)      //  A  AB  ABC...
                 cout << m;
             cout << endl;
 
