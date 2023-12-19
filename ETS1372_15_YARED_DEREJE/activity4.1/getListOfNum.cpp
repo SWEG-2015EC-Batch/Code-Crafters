@@ -17,6 +17,7 @@ while (num != 0) {
         sum += num;
         sumOfSquare += num * num;
         count++;
+       cout<<"the [ "<<count-1<<" ] number is"<<num;
     }
 
     mean = sum / (count - 2);
