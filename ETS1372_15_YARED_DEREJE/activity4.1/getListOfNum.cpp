@@ -16,6 +16,8 @@ while (num != 0) {
         cin >> num;
         sum += num;
         sumOfSquare += num * num;
+        cout<<"the [ "<<count-1<<" ] number is  : "<<num<<endl;
+        cout<<"--------------------------------"<<endl;
         count++;
     }
 
