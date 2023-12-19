@@ -19,6 +19,7 @@ while (num != 0) {
         cout<<"the [ "<<count-1<<" ] number is  : "<<num<<endl;
         cout<<"--------------------------------"<<endl;
         count++;
+       cout<<"the [ "<<count-1<<" ] number is"<<num;
     }
 
     mean = sum / (count - 2);
