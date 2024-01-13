@@ -8,6 +8,9 @@ int main()
     cin >> temp[k];
     total += temp[k];
   }
+    for (int i = 0; i < 8;i++) {
+      cout<< temp[i]<<endl;
+    }
   float average = total / 8;
   cout << "average= " <<average<<endl;
 return 0;
