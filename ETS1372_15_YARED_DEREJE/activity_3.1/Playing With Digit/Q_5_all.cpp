@@ -12,28 +12,28 @@ int number,count=0;
 cout<<"please enter the number   : ";
 cin>>number;
 int num=number;
-// int reverse=0,sum=0;
-// int product=1;
-// while(number>0){
-// int remainder=number%10;
-// sum+=remainder;
-// reverse=(reverse*10)+remainder;
-// number/=10;
-// count++;
+int reverse=0,sum=0;
+int product=1;
+while(number>0){
+int remainder=number%10;
+sum+=remainder;
+reverse=(reverse*10)+remainder;
+number/=10;
+count++;
 
-// if((remainder % 2) == 0){
-//     product*=remainder;
-// }
-// }
-// cout<<"the reverse number is "<<reverse<<endl;
-// cout<<"the sum of each digit is "<<sum<<endl;
-// cout<<"the product of each even number in the given number is " <<product<<endl;
+if((remainder % 2) == 0){
+    product*=remainder;
+}
+}
+cout<<"the reverse number is "<<reverse<<endl;
+cout<<"the sum of each digit is "<<sum<<endl;
+cout<<"the product of each even number in the given number is " <<product<<endl;
 
-// //find the last digit and first digit and find their sum
-// int lastDigit=num%10;
-// int firstDigit=num/pow(10,count-1);
-// int sumation= lastDigit + firstDigit;
-// cout<<"the sum mof the first and last digit of the number is : "<<sumation<<endl;
+//find the last digit and first digit and find their sum
+int lastDigit=num%10;
+int firstDigit=num/pow(10,count-1);
+int sumation= lastDigit + firstDigit;
+cout<<"the sum mof the first and last digit of the number is : "<<sumation<<endl;
 
 cout<<"*******************************************************"<<endl;
 // //swap the first and last digit of the number
@@ -112,7 +112,7 @@ cout<<"*******************************************************"<<endl;
 
 
 cout<<"*******************************************************"<<endl;
-//perfect number or not
+// perfect number or not
 
 
 // int add=0;
