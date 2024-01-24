@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 	int n,m,i,j,k,s,y;
-	cout << "Enter the number :";
+	cout << "Enter the number between 0 & 9:";
 	cin >> n;
 
 	for (i = n; i >= n; i--)
