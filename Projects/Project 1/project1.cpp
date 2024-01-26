@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <cctype>
 #include <string>
@@ -27,7 +26,7 @@ int main() {
 
             for (char tempChar : fullName)//user name must have to be only alph,and between 5-80
             {
-                if (isdigit(tempChar)  fullName.size() > 80  fullName.size() < 5) {
+                if (isdigit(tempChar) || fullName.size() > 80 || fullName.size() < 5) {
                     cout << "Invalid Input, Please try Again.(Your Input should only be Alphabets!)\n" << i << " Attempts left." << endl;
                     if (i <= 0)
                     {
@@ -85,7 +84,7 @@ int main() {
             cin >> age;
             for (char tempChar : age)
             {
-                if (!(isdigit(tempChar))  stoi(age) > 150  stoi(age) < 0) {
+                if (!(isdigit(tempChar)) || stoi(age) > 150 || stoi(age) < 0) {
                     cout << "Invalid Input, Please try Again.(Your Input should be Number!)\n" << i << " Attempts left." << endl;
                     if (i <= 0)
                     {
@@ -101,12 +100,12 @@ int main() {
         }
         seatReservation[k][2] = age;
 
-tempbool = true;
+        tempbool = true;
         for (int i = 3; i >= 0 && tempbool; --i)//based on Ethiopia's Passport Number system, the passport number should have 7 digits and starts with alph
         {
             cout << "Please Enter Your PASSPORT Number:  " << endl;
             cin >> passNum;
-            if (!(isalpha(passNum[0]))  passNum.size() != 7) {
+            if (!(isalpha(passNum[0])) || passNum.size() != 7) {
                 cout << "Invalid Input, Please try Again.(Your Input Should be 7Digits and starsts with alphabet!)\n" << i << " Attempts left." << endl;
                 if (i <= 0)
                 {
@@ -210,9 +209,7 @@ tempbool = true;
                 for (int i = 31; i <= 100; i++)
                 {
                     bool aleyelem = false;
-                    for (in
-
-t value : economytakenSeats)
+                    for (int value : economytakenSeats)
                     {
                         if (value == i)
                         {
@@ -239,7 +236,7 @@ t value : economytakenSeats)
             {
                 cout << "\nNow, Please Choose Seat Number(01-30):  " << endl;
                 cin >> tempInt3;
-                if (tempInt3 < 1  tempInt3>30)
+                if (tempInt3 < 1 || tempInt3>30)
                 {
                     cout << "Invalid Input, Please try Again.(Your Input should only be from 1-30 !)\n" << i << " Attempts left." << endl;
                     if (i <= 0)
