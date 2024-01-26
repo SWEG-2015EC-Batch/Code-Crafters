@@ -115,6 +115,16 @@ int main() {
             }
             else
             {
+                for (int j = 0;j<=k ; j++)
+                {
+                    if (passNum==seatReservation[j][3])
+                {
+                cout<<"Dear "<<seatReservation[j][0]<<", "<<"You have already reserved a seat. ! "<<endl;
+                error=true;
+                goto endcode;
+                }
+    
+                }
                 break;
             }
         }
