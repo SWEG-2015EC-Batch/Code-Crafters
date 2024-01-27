@@ -1,6 +1,12 @@
 // Airline seat reserevation system
-//CODECRAFTERS
-
+/*
+Developed by CODE-CRAFTERS
+1.Yared Abebe ETS1378/15
+2.Yared Habtamu ETS1379/15
+3.Yared Wondatir ETS1375/15
+4.Yared Deribe ETS1374/15
+5.Yared Dereje ETS1372/15
+*/
 #include <iostream>
 #include <cctype>
 #include <string>
