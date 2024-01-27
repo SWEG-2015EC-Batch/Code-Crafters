@@ -10,7 +10,7 @@ Developed by CODE-CRAFTERS
 #include <iostream>
 #include <cctype>
 #include <string>
-#include <array>
+
 using namespace std;
 
 int main() {
